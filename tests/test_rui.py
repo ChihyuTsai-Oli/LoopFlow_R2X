@@ -77,6 +77,8 @@ class ToolbarTests(unittest.TestCase):
         self.assertNotIn("653f328d", raw)
         self.assertNotIn('button_type="Separator"', raw)
         self.assertEqual(raw.count('button_style="spacer"'), 2)
+        for name in ("R2M Open", "R2M Storey", "R2M Models", "R2M Inbound"):
+            self.assertIn("<locale_1033>{}</locale_1033>".format(name), raw)
 
 
 if __name__ == "__main__":
