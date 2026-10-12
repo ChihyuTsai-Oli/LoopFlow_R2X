@@ -6,7 +6,7 @@ An open-source workflow automation tool developed by **蔡智聿 (Chihyu Tsai)**
 
 # LoopFlow｜R2X Toolbar
 
-共用的 Rhino 工具列，只呼叫既有的 Rhino to Blender、Octane、MEP Sync 指令。本身不負責同步。
+選用的整併工具列。只呼叫既有的 Rhino to Blender、Octane、MEP Sync 指令，本身不負責同步，也不取代那三個產品。
 
 [▶ Releases](https://github.com/ChihyuTsai-Oli/LoopFlow_R2X/releases)
 
@@ -18,7 +18,7 @@ An open-source workflow automation tool developed by **蔡智聿 (Chihyu Tsai)**
 - Rhino to Octane Sync：Open、Models（右鍵 Objects）、Camera（右鍵 Camera Push）、Point
 - Rhino to MEP Sync：Open、Storey、Models、Inbound
 
-該產品有安裝，按鈕才會作用。沒安裝時，Rhino 會回報找不到指令。
+三個產品裝完仍會各自開自己的分頁。想只留這一個分頁時，自己關掉那三個。R2X 不包含那些套件，執行時也不讀它們的檔案。該產品有安裝，按鈕才會作用。沒安裝時，Rhino 會回報找不到指令。
 
 ## 系統需求
 
@@ -32,7 +32,7 @@ An open-source workflow automation tool developed by **蔡智聿 (Chihyu Tsai)**
 4. **完全關掉 Rhino 再開**
 5. 使用分頁 **LoopFlow R2X**。若沒出現：到 **Tools → Options → Plug-ins**（工具 → 選項 → 外掛程式）勾選 **LoopFlow R2X**
 
-Rhino to Blender Sync、Rhino to Octane Sync、Rhino to MEP Sync 要另外安裝。這個工具列不包含它們。
+Rhino to Blender Sync、Rhino to Octane Sync、Rhino to MEP Sync 要另外安裝。這個工具列不包含它們，那些套件也不需要先裝這個。
 
 ## 相關專案
 

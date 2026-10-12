@@ -6,7 +6,7 @@ An open-source workflow automation tool developed by **蔡智聿 (Chihyu Tsai)**
 
 # LoopFlow｜R2X Toolbar
 
-One shared Rhino toolbar that calls the existing Rhino to Blender, Octane, and MEP Sync commands. It does not sync anything by itself.
+An optional combined toolbar. It calls the existing Rhino to Blender, Octane, and MEP Sync commands. It does not sync anything, and it does not replace those products.
 
 [▶ Releases](https://github.com/ChihyuTsai-Oli/LoopFlow_R2X/releases)
 
@@ -18,7 +18,7 @@ The **LoopFlow R2X** tab has twelve buttons in three groups, with a separator be
 - Rhino to Octane Sync: Open, Models (right-click Objects), Camera (right-click Camera Push), Point
 - Rhino to MEP Sync: Open, Storey, Models, Inbound
 
-A button only works after that product is installed. If it is not, Rhino reports that the command was not found.
+Those three products still open their own tabs after install. Close those tabs yourself if you want to keep only this one. R2X does not include them, and it does not read their files when it runs. A button only works after that product is installed. If it is not, Rhino reports that the command was not found.
 
 ## System requirements
 
@@ -32,7 +32,7 @@ A button only works after that product is installed. If it is not, Rhino reports
 4. **Quit Rhino completely and reopen it.**
 5. Use the **LoopFlow R2X** tab. If it does not appear: **Tools → Options → Plug-ins**, enable **LoopFlow R2X**.
 
-Install Rhino to Blender Sync, Rhino to Octane Sync, and Rhino to MEP Sync separately. This toolbar does not include them.
+Install Rhino to Blender Sync, Rhino to Octane Sync, and Rhino to MEP Sync separately. This toolbar does not include them, and those packages do not require this one.
 
 ## Related projects
 
