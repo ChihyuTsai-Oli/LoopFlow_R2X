@@ -14,9 +14,9 @@ An optional combined toolbar. It calls the existing Rhino to Blender, Octane, an
 
 The **LoopFlow R2X** tab has twelve buttons in three groups, with a separator between groups:
 
-- Rhino to Blender Sync: Open, Models (right-click Objects), Camera (right-click Camera Push), Light (right-click Light Push)
-- Rhino to Octane Sync: Open, Models (right-click Objects), Camera (right-click Camera Push), Point
-- Rhino to MEP Sync: Open, Storey, Models, Inbound
+- Rhino to Blender Sync: R2B Config, R2B Model (button face: R2B Models; right-click R2B Objects), R2B Camera (right-click R2B Camera Push), R2B Light (right-click R2B Light Push)
+- Rhino to Octane Sync: R2O Config, R2O Model (button face: R2O Models; right-click R2O Objects), R2O Camera (right-click R2O Camera Push), R2O Point
+- Rhino to MEP Sync: R2M Open, R2M Storey, R2M Models, R2M Inbound
 
 Those three products still open their own tabs after install. Close those tabs yourself if you want to keep only this one. R2X does not include them, and it does not read their files when it runs. A button only works after that product is installed. If it is not, Rhino reports that the command was not found.
 

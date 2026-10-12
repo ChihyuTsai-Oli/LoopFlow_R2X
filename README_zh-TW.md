@@ -14,9 +14,9 @@ An open-source workflow automation tool developed by **蔡智聿 (Chihyu Tsai)**
 
 分頁 **LoopFlow R2X** 有十二顆按鈕，分成三組，組與組之間有分隔條：
 
-- Rhino to Blender Sync：Open、Models（右鍵 Objects）、Camera（右鍵 Camera Push）、Light（右鍵 Light Push）
-- Rhino to Octane Sync：Open、Models（右鍵 Objects）、Camera（右鍵 Camera Push）、Point
-- Rhino to MEP Sync：Open、Storey、Models、Inbound
+- Rhino to Blender Sync：R2B Config、R2B Model（按鈕面 R2B Models；右鍵 R2B Objects）、R2B Camera（右鍵 R2B Camera Push）、R2B Light（右鍵 R2B Light Push）
+- Rhino to Octane Sync：R2O Config、R2O Model（按鈕面 R2O Models；右鍵 R2O Objects）、R2O Camera（右鍵 R2O Camera Push）、R2O Point
+- Rhino to MEP Sync：R2M Open、R2M Storey、R2M Models、R2M Inbound
 
 三個產品裝完仍會各自開自己的分頁。想只留這一個分頁時，自己關掉那三個。R2X 不包含那些套件，執行時也不讀它們的檔案。該產品有安裝，按鈕才會作用。沒安裝時，Rhino 會回報找不到指令。
 
