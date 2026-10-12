@@ -46,7 +46,7 @@ class ToolbarTests(unittest.TestCase):
         for item in items:
             if item.tag != "tool_bar_item":
                 continue
-            if item.get("button_type") == "Separator":
+            if item.get("button_style") == "spacer":
                 kinds.append("sep")
             else:
                 kinds.append("btn")
@@ -56,7 +56,7 @@ class ToolbarTests(unittest.TestCase):
         buttons = [
             item
             for item in self.root.find("tool_bars/tool_bar")
-            if item.tag == "tool_bar_item" and item.get("button_type") != "Separator"
+            if item.tag == "tool_bar_item" and item.get("button_style") != "spacer"
         ]
         self.assertEqual(len(buttons), 12)
         for index, item in enumerate(buttons):
@@ -75,6 +75,8 @@ class ToolbarTests(unittest.TestCase):
         self.assertGreaterEqual(raw.count("<icon "), 13)
         self.assertNotIn("c40c3a2a", raw)
         self.assertNotIn("653f328d", raw)
+        self.assertNotIn('button_type="Separator"', raw)
+        self.assertEqual(raw.count('button_style="spacer"'), 2)
 
 
 if __name__ == "__main__":

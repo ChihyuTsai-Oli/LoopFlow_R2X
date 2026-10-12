@@ -33,7 +33,7 @@
         <left_macro_id>5999a8ff-48de-42a5-9018-9ed79e620ac8</left_macro_id>
         <right_macro_id>b3005ac7-b0f0-4316-9dd5-98455eced672</right_macro_id>
       </tool_bar_item>
-      <tool_bar_item guid="04554463-2202-4ce4-a704-c75f7ea0f29c" button_type="Separator" />
+      <tool_bar_item guid="04554463-2202-4ce4-a704-c75f7ea0f29c" button_style="spacer" />
       <tool_bar_item guid="39dd46ad-1ec5-486a-8321-68f8c043f915">
         <left_macro_id>e2a91c8e-63bd-4ed6-bc85-227768c623d3</left_macro_id>
       </tool_bar_item>
@@ -48,7 +48,7 @@
       <tool_bar_item guid="117f2198-0e14-417f-a7c4-b6110ad7a3e2">
         <left_macro_id>62b549ec-b1e9-4162-a7d2-75c3c0206aa0</left_macro_id>
       </tool_bar_item>
-      <tool_bar_item guid="29a695f5-94a5-4440-af94-3ea2ec01822a" button_type="Separator" />
+      <tool_bar_item guid="29a695f5-94a5-4440-af94-3ea2ec01822a" button_style="spacer" />
       <tool_bar_item guid="633ca00c-be42-4032-b0b0-49629662ae75">
         <left_macro_id>e099a0fc-cb06-4355-911f-e63a3a2e5acb</left_macro_id>
       </tool_bar_item>

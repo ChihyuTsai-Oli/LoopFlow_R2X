@@ -28,7 +28,7 @@ Those three products still open their own tabs after install. Close those tabs y
 
 1. Open Rhino 8 and run `PackageManager`.
 2. Search for **`loopflow-R2X-Toolbar`** and install.
-3. Or download `loopflow-r2x-toolbar-1.0.0-rh8_0-win.yak` from [Releases](https://github.com/ChihyuTsai-Oli/LoopFlow_R2X/releases) and install from file.
+3. Or download `loopflow-r2x-toolbar-1.0.1-rh8_0-win.yak` from [Releases](https://github.com/ChihyuTsai-Oli/LoopFlow_R2X/releases) and install from file.
 4. **Quit Rhino completely and reopen it.**
 5. Use the **LoopFlow R2X** tab. If it does not appear: **Tools → Options → Plug-ins**, enable **LoopFlow R2X**.
 

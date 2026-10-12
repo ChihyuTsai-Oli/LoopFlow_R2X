@@ -146,7 +146,7 @@ def main():
     for index, (buttons, group_macros, group_icons) in enumerate(groups):
         if index:
             parts.append(
-                f'      <tool_bar_item guid="{gid()}" button_type="Separator" />'
+                f'      <tool_bar_item guid="{gid()}" button_style="spacer" />'
             )
         parts.extend(buttons)
         macros.extend(group_macros)
@@ -169,7 +169,7 @@ def main():
     text_out = "\n".join(parts)
     OUT.write_text(text_out, encoding="utf-8", newline="\n")
     print("buttons", text_out.count("<tool_bar_item "))
-    print("separators", text_out.count('button_type="Separator"'))
+    print("separators", text_out.count('button_style="spacer"'))
     for token in (
         "! _RBOpen",
         "! _RBModels",
