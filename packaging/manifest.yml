@@ -1,0 +1,15 @@
+name: loopflow-R2X-Toolbar
+version: 1.0.0
+authors:
+  - Chihyu Tsai
+description: >
+  Shared Rhino toolbar that calls the existing Rhino to Blender, Octane, and MEP Sync commands. It does not sync by itself.
+  https://github.com/ChihyuTsai-Oli/LoopFlow_R2X
+url: https://github.com/ChihyuTsai-Oli/LoopFlow_R2X
+keywords:
+  - rhino
+  - loopflow
+  - toolbar
+  - guid:8c11ca7d-19aa-4e07-bf01-07ec45cdab02
+platform: win
+icon: icon.png

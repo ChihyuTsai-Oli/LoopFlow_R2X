@@ -1,0 +1,44 @@
+{
+  "host": {
+    "name": "Rhino3D",
+    "version": "8.34.26223\u002B11001",
+    "os": "windows",
+    "arch": "x64"
+  },
+  "id": "8c11ca7d-19aa-4e07-bf01-07ec45cdab02",
+  "identity": {
+    "name": "LoopFlow R2X",
+    "version": "0.1",
+    "publisher": {
+      "email": "chihyu@proton.me",
+      "name": "Chihyu Tsai",
+      "url": "https://chihyu-tsai.com/"
+    },
+    "url": "https://github.com/ChihyuTsai-Oli/LoopFlow_R2X"
+  },
+  "settings": {
+    "buildPath": "build/",
+    "buildTarget": {
+      "host": {
+        "name": "Rhino3D",
+        "version": "8"
+      },
+      "title": "Rhino3D (8.*)",
+      "slug": "rh8"
+    },
+    "publishTarget": {
+      "title": "McNeel Yak Server"
+    }
+  },
+  "codes": [
+    {
+      "id": "f4c8e2a1-7b36-4d90-8e15-6a2d9c0b41f7",
+      "language": {
+        "id": "mcneel.pythonnet.python",
+        "version": "3.9.10"
+      },
+      "title": "R2X",
+      "uri": "file:///E:/_GitHub/LoopFlow_R2X/packaging/commands/R2X.py"
+    }
+  ]
+}
