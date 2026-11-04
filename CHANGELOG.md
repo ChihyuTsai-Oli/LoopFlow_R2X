@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased
+
+Rhino 9 Package Manager 可安裝本套件（2026-11-04）。執行測試進行中；公開系統需求仍是 Rhino 8。
+
 ## [1.0.2] - 2026-10-12
 
 R2M 那四顆按鈕的名稱改為 **R2M Open**、**R2M Storey**、**R2M Models**、**R2M Inbound**。不要覆寫 `v1.0.1`。
