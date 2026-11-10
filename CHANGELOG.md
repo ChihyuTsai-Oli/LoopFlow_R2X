@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+Rhino 8 工具列已從 R2B／R2O／R2M 重建，帶入各產品按鈕的淺／深色 SVG。尚未進版；Package Manager 仍是舊圖。請在 Rhino 8 開啟 repo 的 `toolbar/LoopFlow_R2X.rui` 切主題驗收。
+
 Rhino 9 Package Manager 可安裝本套件（2026-11-04）。執行測試進行中；公開系統需求仍是 Rhino 8。
 
 ## [1.0.2] - 2026-10-12
