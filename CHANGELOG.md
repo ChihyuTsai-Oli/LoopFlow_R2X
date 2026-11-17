@@ -1,8 +1,8 @@
 # Changelog
 
-## Unreleased
+## [1.0.4] - 2026-11-17
 
-準備 `1.0.4` 測試包：工具列與 R2B／R2O／R2M 十二顆按鈕換新版淺／深色 SVG，指令不變。yak 445,084 bytes，SHA-256 `9D5726B37CFE7CD9E6AA5484739869734274717A25A574FA95E1EFEF61FFE2AE`。等待安裝驗收，尚未發布。
+工具列與 R2B／R2O／R2M 十二顆按鈕換新版淺／深色 SVG，指令不變。安裝驗收通過。yak 445,084 bytes，SHA-256 `9D5726B37CFE7CD9E6AA5484739869734274717A25A574FA95E1EFEF61FFE2AE`。GitHub Release 與 Package Manager 已上架。不要覆寫 `v1.0.3`。
 
 ## [1.0.3] - 2026-11-10
 
