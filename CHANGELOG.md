@@ -2,7 +2,7 @@
 
 ## [1.0.5] - 2026-11-17
 
-Package Manager 的套件縮圖改為淺色稿。工具列圖示與指令不變。不要覆寫 `v1.0.4`。yak 145,195 bytes，SHA-256 `42071E9B3EA4EBD8C8B68011801132D6D16AE69AB260A1FEEBF758F0705FD324`。
+Package Manager 的套件縮圖改為淺色稿。工具列圖示與指令不變。Rhino 8 與 Rhino 9 共用同一份 `rh8_0` yak，相容版已完成並通過安裝驗收。不要覆寫 `v1.0.4`。yak 145,195 bytes，SHA-256 `42071E9B3EA4EBD8C8B68011801132D6D16AE69AB260A1FEEBF758F0705FD324`。
 
 ## [1.0.4] - 2026-11-17
 

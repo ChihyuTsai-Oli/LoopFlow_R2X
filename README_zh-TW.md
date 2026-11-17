@@ -22,11 +22,11 @@ An open-source workflow automation tool developed by **蔡智聿 (Chihyu Tsai)**
 
 ## 系統需求
 
-- **Rhino 8**（Windows）
+- **Rhino 8 或 Rhino 9**（Windows）。兩邊安裝同一份 `rh8_0` 套件。
 
 ## 安裝
 
-1. 開啟 Rhino 8，命令列執行 `PackageManager`
+1. 開啟 Rhino 8 或 Rhino 9，命令列執行 `PackageManager`
 2. 搜尋 **`loopflow-R2X-Toolbar`** 並安裝
 3. 或從 [Releases](https://github.com/ChihyuTsai-Oli/LoopFlow_R2X/releases) 下載 `loopflow-r2x-toolbar-1.0.5-rh8_0-win.yak`，在 Package Manager 選擇從檔案安裝
 4. **完全關掉 Rhino 再開**
