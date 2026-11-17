@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.0.5] - 2026-11-17
+
+Package Manager 的套件縮圖改為淺色稿。工具列圖示與指令不變。不要覆寫 `v1.0.4`。yak 145,195 bytes，SHA-256 `42071E9B3EA4EBD8C8B68011801132D6D16AE69AB260A1FEEBF758F0705FD324`。
+
 ## [1.0.4] - 2026-11-17
 
 工具列與 R2B／R2O／R2M 十二顆按鈕換新版淺／深色 SVG，指令不變。安裝驗收通過。yak 445,084 bytes，SHA-256 `9D5726B37CFE7CD9E6AA5484739869734274717A25A574FA95E1EFEF61FFE2AE`。GitHub Release 與 Package Manager 已上架。不要覆寫 `v1.0.3`。
